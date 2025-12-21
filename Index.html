@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting to UPI…</title>
+
+    <!-- Instant redirect -->
+    <meta http-equiv="refresh" content="0; url=upi://pay?pa=greatvalue@ucobank&pn=Sharanam%20Cricket%20Tournament%2026&am=350&cu=INR&tn=Sharanam%20Cricket%20Tournament%2026" />
+
+    <script>
+      // Backup redirect for browsers that ignore meta refresh
+      window.location.href =
+        "upi://pay?pa=greatvalue@ucobank&pn=Sharanam%20Cricket%20Tournament%2026&am=350&cu=INR&tn=Sharanam%20Cricket%20Tournament%2026";
+    </script>
+  </head>
+
+  <body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; padding: 24px;">
+    <h2>Opening your UPI app…</h2>
+    <p>If nothing happens, tap the button below:</p>
+
+    <p>
+      <a
+        href="upi://pay?pa=greatvalue@ucobank&pn=Sharanam%20Cricket%20Tournament%2026&am=350&cu=INR&tn=Sharanam%20Cricket%20Tournament%2026"
+        style="display:inline-block; padding:12px 16px; background:#111; color:#fff; border-radius:10px; text-decoration:none;"
+      >
+        Pay ₹350 via UPI
+      </a>
+    </p>
+
+    <p style="color:#555; margin-top:16px;">
+      Note: UPI deep-links usually work best on mobile.
+    </p>
+  </body>
+</html>
